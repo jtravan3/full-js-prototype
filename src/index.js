@@ -4,6 +4,8 @@ import App from './components/App';
 // import data from './testData';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+    <App initialData={window.initialData}/>,
+    document.getElementById('root')
 );
+
+
